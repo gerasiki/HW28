@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="PY-221.5080.212">
-    <data-source name="db" uuid="c6317a01-14e7-42ea-8eb8-5e88b4d17219">
-      <database-info product="SQLite" version="3.36.0" jdbc-version="2.1" driver-name="SQLite JDBC" driver-version="3.36.0.3" dbms="SQLITE" exact-version="3.36.0" exact-driver-version="3.36">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
-      <auth-provider>no-auth</auth-provider>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" qname="@" />
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
     <data-source name="hunting@localhost" uuid="c9b0e8d6-fca0-4ced-915d-59b06f5031e5">
       <database-info product="PostgreSQL" version="14.5 (Debian 14.5-1.pgdg110+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.4.0" dbms="POSTGRES" exact-version="14.5" exact-driver-version="42.4">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>user</user-name>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="database" qname="@">
-            <node kind="schema" qname="@" />
-          </node>
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
-    <data-source name="Django default" uuid="47c2404e-fd6a-4f8c-82c8-8c08059e7d4b">
-      <database-info product="PostgreSQL" version="14.5 (Debian 14.5-1.pgdg110+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.4.0" dbms="POSTGRES" exact-version="14.5" exact-driver-version="42.4">
-        <identifier-quote-string>&quot;</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <user-name>user</user-name>
       <schema-mapping>
         <introspection-scope>
