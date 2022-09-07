@@ -19,7 +19,6 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 
-from ads import views
 from user.views import LocationViewSet
 
 router = routers.SimpleRouter()
@@ -32,7 +31,8 @@ urlpatterns = [
     path('', include('ads.urls.root')),
     path('cat/', include('ads.urls.categories')),
     path('ad/', include('ads.urls.ads')),
-    path('user/', include('user.urls'))
+    path('user/', include('user.urls')),
+    path('selection/', include('ads.urls.selections'))
 ]
 
 urlpatterns += router.urls
