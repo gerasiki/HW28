@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from ads.models import Ad, Category
+from ads.models import Ad, Category, Selection
 from user.models import Location, User
 
 
@@ -18,6 +18,11 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Location)
 class LocationAdmin(admin.ModelAdmin):
+    pass
+
+
+@ admin.register(Selection)
+class SelectionAdmin(admin.ModelAdmin):
     pass
 
 

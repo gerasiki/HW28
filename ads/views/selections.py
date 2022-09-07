@@ -2,6 +2,7 @@ from rest_framework.generics import RetrieveAPIView, UpdateAPIView, ListAPIView,
 from rest_framework.permissions import IsAuthenticated
 
 from ads.models import Selection
+from ads.permissions import SelectionUpdatePermission
 from ads.serializers import SelectionListSerializer, SelectionDetailSerializer, \
     SelectionSerializer
 
@@ -25,10 +26,10 @@ class SelectionCreateView(CreateAPIView):
 class SelectionUpdateView(UpdateAPIView):
     queryset = Selection.objects.all()
     serializer_class = SelectionSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated, SelectionUpdatePermission]
 
 
 class SelectionDeleteView(DestroyAPIView):
     queryset = Selection.objects.all()
     serializer_class = SelectionSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated, SelectionUpdatePermission]
