@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a782542e-e3ea-4e5d-8095-acbdf98e8872" name="Changes" comment="checked selections functionality" />
+    <list default="true" id="a782542e-e3ea-4e5d-8095-acbdf98e8872" name="Changes" comment="checked selections functionality">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ads/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ads/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/serializers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +155,7 @@
       <workItem from="1660550040427" duration="20365000" />
       <workItem from="1661421957460" duration="44474000" />
       <workItem from="1661665542749" duration="592000" />
-      <workItem from="1661666233325" duration="38244000" />
+      <workItem from="1661666233325" duration="41967000" />
     </task>
     <task id="LOCAL-00001" summary="models and migrations">
       <created>1660564842980</created>
@@ -391,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662699438824</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="checked selections functionality">
+      <created>1662699557113</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1662699557113</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

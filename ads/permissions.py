@@ -14,9 +14,10 @@ class SelectionUpdatePermission(permissions.BasePermission):
         except Selection.DoesNotExist:
             raise Http404
 
-        if selection.owner_id == request.user.id:
+        if selection.owner.id == request.user.id:
             return True
-        return False
+        else:
+            return False
 
 
 class AdUpdatePermission(permissions.BasePermission):
