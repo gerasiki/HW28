@@ -23,7 +23,7 @@ class AdDetailSerializer(serializers.ModelSerializer):
 class SelectionListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Selection
-        fields = ["id", "name"]
+        fields = ["id", "name", "owner", "items"]
 
 
 class SelectionDetailSerializer(serializers.ModelSerializer):
