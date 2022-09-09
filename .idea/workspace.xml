@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a782542e-e3ea-4e5d-8095-acbdf98e8872" name="Changes" comment="added permissions, added selections in admin">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ads/serializers.py" afterDir="false" />
-    </list>
+    <list default="true" id="a782542e-e3ea-4e5d-8095-acbdf98e8872" name="Changes" comment="checked selections functionality" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +151,7 @@
       <workItem from="1660550040427" duration="20365000" />
       <workItem from="1661421957460" duration="44474000" />
       <workItem from="1661665542749" duration="592000" />
-      <workItem from="1661666233325" duration="37919000" />
+      <workItem from="1661666233325" duration="38244000" />
     </task>
     <task id="LOCAL-00001" summary="models and migrations">
       <created>1660564842980</created>
@@ -387,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662534806605</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="checked selections functionality">
+      <created>1662699438824</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662699438824</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +410,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="loaded database, first view" />
     <MESSAGE value="second view" />
     <MESSAGE value="third view" />
     <MESSAGE value="fixed detail views" />
@@ -431,7 +434,8 @@
     <MESSAGE value="access with tokens, serializer for Ad" />
     <MESSAGE value="new architect, added selections model, serializers, views" />
     <MESSAGE value="added permissions, added selections in admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="added permissions, added selections in admin" />
+    <MESSAGE value="checked selections functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked selections functionality" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HW27$csv_to_json.coverage" NAME="csv_to_json Coverage Results" MODIFIED="1660631709707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
